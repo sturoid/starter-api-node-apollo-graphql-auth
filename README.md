@@ -19,6 +19,8 @@ If you want to use Mongo DB the project is set up for it (Mong DB and Mongoose p
 > npm run dev
 ```
 
+Once the server is running you can go to localhost:3000 to get to GraphQL playground.
+
 ### Running authenticated queries in Graphql playground
 
 First run the sign in method to get an auth token:
