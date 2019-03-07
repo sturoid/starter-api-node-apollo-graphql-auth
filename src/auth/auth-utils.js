@@ -6,8 +6,8 @@ const User = require('../user/user-model');
 const CONFIG = {
   jwtTokenLife: '30 days',
   jwtRefreshTokenLife: '30 days',
-  jwtIssuer: 'sic:api',
-  jwtAudience: 'sic:user',
+  jwtIssuer: 'myapp:api',
+  jwtAudience: 'myapp:user',
   jwtTokenSubject: 'user:auth-token',
   jwtRefreshTokenSubject: 'user:auth-refresh-token'
 };
