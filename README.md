@@ -1,4 +1,4 @@
-## starter-node-apollo-graphql-auth-api
+## starter-api-node-apollo-graphql-auth
 Starter API project with Node, Apollo Server, GraphQL, (WIP) authentication, (WIP) password requesting and resetting, current user on  context, file structure, and code formatting.
 
 ### Updating to latest packages releases
