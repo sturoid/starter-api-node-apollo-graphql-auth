@@ -11,9 +11,11 @@ To quickly and simply force update all packages to their latest release:
 ```
 
 ### Running project
+If you want to use Mongo DB the project is set up for it (Mong DB and Mongoose packages). If not simply swap out the info in config/db and the code in the model files. Once that is done you can continue.
 
 ```
 > npm install
+> npm run db:seed
 > npm run dev
 ```
 
