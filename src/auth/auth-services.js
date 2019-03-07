@@ -77,4 +77,4 @@ async function updatePassword(currentPassword, newPassword, userId) {
   }
 }
 
-module.exports = { signUp, signIn, updaetPassword };
+module.exports = { signUp, signIn, updatePassword };
