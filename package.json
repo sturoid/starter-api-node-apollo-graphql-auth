@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./index.js",
     "dev": "npm install && nodemon ./index.js",
-    "seed": "node ./seed/run",
+    "db:seed": "node ./seed/run",
     "test": "jest --watch --testPathIgnorePatterns email",
     "test:once": "jest --testPathIgnorePatterns email",
     "test:emails": "jest --testPathPattern email",
