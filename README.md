@@ -2,6 +2,8 @@
 
 Starter API project with Node, Apollo Server, GraphQL, (WIP) authentication, (WIP) password requesting and resetting, email configuration, current user in api, file structure, code formatting with prettier/eslint, and code format enforcement on git commits with husky. Mongo DB and Mongoose are initially set up, but can easily be swapped for whatever DB you use.
 
+For extra code formatting goodness, install prettier in your IDE and turn on formatting on save. Here are the instructions for [Visual Studio Code](https://github.com/prettier/prettier-vscode).
+
 ### Updating to latest packages releases
 
 To quickly and simply force update all packages to their latest release:
