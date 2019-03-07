@@ -23,6 +23,9 @@ If you want to use Mongo DB the project is set up for it (Mong DB and Mongoose p
 
 Once the server is running you can go to localhost:3000 to get to GraphQL playground.
 
+### Email setup and sending
+Testing email is made very simple with [ethereal](https://ethereal.email/). Sign up for an account, and then fill in the username and password variables in .env with your username and password. This will allow you to send emails in development which will be caught by ethereal and made viewable in the browser. To send email use sendEmail found in ./src/app/email/send-email.
+
 ### Running authenticated queries in Graphql playground
 
 First run the sign in method to get an auth token:
