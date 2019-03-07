@@ -1,6 +1,6 @@
 ## starter-api-node-apollo-graphql-auth
 
-Starter API project with Node, Apollo Server, GraphQL, (WIP) authentication, (WIP) password requesting and resetting, email configuration, current user on context, file structure, and code formatting. Mongo DB and Mongoose are initially set up, but can easily be swapped for whatever DB you use.
+Starter API project with Node, Apollo Server, GraphQL, (WIP) authentication, (WIP) password requesting and resetting, email configuration, current user in api, file structure, and code formatting. Mongo DB and Mongoose are initially set up, but can easily be swapped for whatever DB you use.
 
 ### Updating to latest packages releases
 
