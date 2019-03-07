@@ -7,7 +7,7 @@ Starter API project with Node, Apollo Server, GraphQL, (WIP) authentication, (WI
 To quickly and simply force update all packages to their latest release:
 
 ```
-> npm run update:packages
+> npm run packages:update
 ```
 
 ### Running project
