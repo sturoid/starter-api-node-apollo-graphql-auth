@@ -4,7 +4,7 @@ Starter API project with Node, Apollo Server, GraphQL, (WIP) authentication, (WI
 
 For extra code formatting goodness, install prettier in your IDE and turn on formatting on save. Here are the instructions for [Visual Studio Code](https://github.com/prettier/prettier-vscode).
 
-### Updating to latest packages releases
+### Updating to latest package releases
 
 To quickly and simply force update all packages to their latest release:
 
