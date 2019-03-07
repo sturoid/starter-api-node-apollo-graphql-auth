@@ -1,13 +1,17 @@
 ## starter-api-node-apollo-graphql-auth
-Starter API project with Node, Apollo Server, GraphQL, (WIP) authentication, (WIP) password requesting and resetting, current user on  context, file structure, and code formatting.
+
+Starter API project with Node, Apollo Server, GraphQL, (WIP) authentication, (WIP) password requesting and resetting, email configuration, current user on context, file structure, and code formatting. Mongo DB and Mongoose are initially set up, but can easily be swapped for whatever DB you use.
 
 ### Updating to latest packages releases
+
 To quickly and simply force update all packages to their latest release:
+
 ```
 > npm run update:packages
 ```
 
 ### Running project
+
 ```
 > npm install
 > npm run dev
@@ -37,12 +41,14 @@ Then under headers set the token like so:
 ### Code formatting
 
 #### File Naming
+
 All files are lower case and dash (-) separated. Much thought and turmoil went into this decision but was influenced by multiple articles:
 
 - https://blog.codinghorror.com/of-spaces-underscores-and-dashes/
 - https://x-equals.com/dashes-versus-underscores/
 
 #### Folder structure
+
 - config/ - Application config including db, jest/testing, etc.
 - seed/ - Database seeding related files. Initial seeds for users are present to show structure.
 - src/ - Application logic.
@@ -54,4 +60,3 @@ All files are lower case and dash (-) separated. Much thought and turmoil went i
     - entity-resolvers.js - GraphQL resolvers.
     - entity-utils.js - Non-database related functions.
     - entity-services.js - Detabase related functions.
-
