@@ -46,7 +46,7 @@ Then under headers set the token like so:
 
 #### File Naming
 
-All files are lower case and dash (-) separated. Much thought and turmoil went into this decision but was influenced by multiple articles:
+All file names are lower cased and dash (-) separated. Much thought and turmoil went into this decision but was influenced by multiple articles:
 
 - https://blog.codinghorror.com/of-spaces-underscores-and-dashes/
 - https://x-equals.com/dashes-versus-underscores/
